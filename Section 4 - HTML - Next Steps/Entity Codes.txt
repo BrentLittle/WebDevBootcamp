@@ -1,0 +1,18 @@
+What is &#9824; ?
+
+an entity code is used to display reserved characters that would be invalid
+
+Can be used in place of hard to type characters
+
+The browser renders and displays the correct character
+
+What characters are reserved?
+    - < and >
+        <p> 1 &lt; 6 &gt; 1 </p>
+    
+    - &
+        <p> 1 &lt; 6 &gt; 1 &amp; 1 &le; 6 &ge; 1</p>
+
+
+We can also use an Entity Number
+    
