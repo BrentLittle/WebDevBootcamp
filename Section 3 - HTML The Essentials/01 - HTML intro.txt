@@ -1,0 +1,14 @@
+HTML = Nouns (The what of the page)
+
+Outlines the structure of the page
+style is CSS
+behaviour is JS
+
+HTML is a markup language that outlines the structure of a webpage
+
+HTML ELEMENTS:
+common elements include <p>, <h1>, <img>, <form>
+
+Tags consist of an opening and closing tag.
+<p>I am a Paragraph</p>
+^^^ Opening        ^^^^ Closing

@@ -1,0 +1,13 @@
+CRUCIAL!
+ - Understanding what HTML 5 is
+ - Block vs Inline Elements
+ - Span & Div Elements
+ - Semantic Elements
+
+
+IMPORTANT
+
+
+Nice to Have
+ - sub, sup, hr, and br elements
+ - VSCode: Emmet

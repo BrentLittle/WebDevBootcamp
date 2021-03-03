@@ -1,0 +1,11 @@
+CRUCIAL!
+ - Paragraph Elements
+ - HTML Headings
+ - HTML Lists
+ - HTML Anchor Tags
+ - HTML Images
+ - HTML Boilerplate
+
+IMPORTANT
+ - Mozilla MDN
+ - Inspection Tool
