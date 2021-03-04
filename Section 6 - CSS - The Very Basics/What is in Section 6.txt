@@ -1,0 +1,11 @@
+CRUCIAL!
+ - Overview of CSS
+ - Basic CSS Syntax
+ - Including Styles Correctly in HTML Docs
+ - Colour Systems: RGB, Hex etc...
+ - Font-Family Property
+
+IMPORTANT
+ - Common Text Properties
+
+NICE TO HAVE

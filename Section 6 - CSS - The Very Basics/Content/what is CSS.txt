@@ -1,0 +1,40 @@
+CSS is the adjectives of the website
+
+CSS describes the HTML structure
+
+style the visual representation of HTML
+
+CSS is a language for describing how documents are presented visually
+
+CSS = Cascading Style Sheets
+
+
+CSS RULES
+They follow this certain structure for all of the rules
+selector {
+    property : value;
+}
+
+h1{
+    color:purple;
+}
+
+img{
+    width:100px;
+    height:200px;
+}
+
+input[type="text"]:nth-of-type(2n){
+    border:2px solid red;
+}
+
+
+
+HOW DO WE INCLUDE THESE CSS FILES??
+
+BAD IDEA    - Inline Styles & Style Element
+GOOD IDEA   - External Style Sheets   
+            - linking .css files to the head of your HTML is the best way to use styles on your website
+                <link rel="stylesgeet" href="sheet.css">
+                    ^^^^
+                        LINK GOES IN THE HEAD OF HTML DOC
