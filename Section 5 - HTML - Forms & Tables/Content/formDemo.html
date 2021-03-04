@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Forms Demo</title>
+  </head>
+
+  <body>
+
+    <header>
+    </header>
+
+    <main>
+      <h1>Form Demo</h1>
+
+      <button type="button">Outside of Form</button>
+
+      <hr>
+
+      <form action="/non-Existant-Page">
+
+        <button type="button">At top of form non-submit button</button>
+
+        <p>
+          <label for="textInput">Enter Some Text</label>
+          <input type="text" placeholder="text" id="textInput" name="username">
+        </p>
+
+        <button type="reset">in Form reset button</button>
+
+        <p>
+          <label for="PasswordInput">Enter a password</label>
+          <input type="password" placeholder="password" id="PasswordInput" name="password">
+        </p>
+
+        <p>
+          <label for="colorInput">Pick A Colour</label>
+          <input type="color" id="colorInput" name="color">
+        </p>
+
+        <p>
+          <label for="numInput ">Enter a Number</label>
+          <input type="number " placeholder="number " id="numInput " name="number">
+        </p>
+
+        <button type="submit ">Submit</button>
+
+      </form>
+
+      <hr>
+
+      <h2>Reddit Searcher</h2>
+      <form action="https://www.reddit.com/search">
+        <label for="redditQuery">Search: </label>
+        <input type="text" name="q" id="redditQuery">
+        <button>Search on Reddit</button>
+      </form>
+
+      <hr>
+
+      <h2>Google Searcher</h2>
+      <form action="https://www.google.com/search">
+        <label for="GoogleQuery">Search: </label>
+        <input type="text" name="q" id="GoogleQuery">
+        <button>Search on Google</button>
+      </form>
+
+      <hr>
+
+      <h2>YouTube Searcher</h2>
+      <form action="https://www.youtube.com/results">
+        <label for="YTQuery">Search: </label>
+        <input type="text" name="search_query" id="YTQuery">
+        <button>Search on YouTube</button>
+      </form>
+
+      <hr>
+
+      <h2>More Inputs</h2>
+
+      <h3>Check Box</h3>
+      <form action="/TOS">
+        <input type="checkbox" name="agreeTOS" id="agree" checked="on">
+        <label for="agree">I agree to T.O.S</label>
+        <button>Submit</button>
+      </form>
+
+      <h3>Radio Button</h3>
+      <form action="/TOS">
+
+        <button>Submit</button>
+      </form>
+
+      <h3>Select Option</h3>
+      <form action="/TOS">
+        <label for="pet-selection">Choose a pet:</label>
+        <select name="pets" id="pet-selection">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+        <button>Submit</button>
+      </form>
+
+      <hr>
+
+      <h2>Range & Text Area</h2>
+      <form action="/WillFarrell">
+        <h3>Range Selector</h3>
+        <p>Select Level of Cowbell:</p>
+        <p>
+          <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="0" step="2">
+          <label for="cowbell">Cowbell</label>
+        </p>
+        <p>
+          <label for="MinMaxInput ">Enter a Number</label>
+          <input type="number" placeholder="1" id="MinMaxInput " name="number" min="1" max="100" step="1">
+        </p>
+        <button>More Cowbell</button>
+      </form>
+
+      <form action="/TextArea">
+        <h3>Text Area</h3>
+        <p>
+          <label for="req">Any extra Requests?</label>
+          <div>
+            <textarea name="req" id="requests" cols="30" rows="10"></textarea>
+          </div>
+        </p>
+        <button>Submit</button>
+      </form>
+
+      <hr>
+
+      <h2>Form Validation</h2>
+      <form action="/Valid">
+        <label for="fName">Enter Your First Name</label>
+        <input type="text" id="fName" name="fName" required>
+        <p>
+          <label for="uName">Enter Your Username</label>
+          <input type="text" id="uName" name="uName" minlength="5" maxlength="20" required>
+        </p>
+        <button>Submit</button>
+
+
+      </form>
+
+    </main>
+  </body>
+
+</html>
