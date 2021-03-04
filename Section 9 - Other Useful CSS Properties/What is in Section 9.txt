@@ -1,0 +1,11 @@
+CRUCIAL!
+ - Transitions
+ - Position property
+
+IMPORTANT
+ - Opacity & alpha channel
+ - Google Fonts
+ - Background Property
+
+NICE TO HAVE
+ - Transforms
