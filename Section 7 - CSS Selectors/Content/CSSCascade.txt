@@ -1,0 +1,7 @@
+Order that rules are implemented matters
+
+two styles if conflicting the last one will be seen on the website
+
+
+Order also matters between style sheets
+If a style conflicts from a style sheet linked AFTER an EARLIER linked sheet then the Newest Linked sheet wins and that style will be applied

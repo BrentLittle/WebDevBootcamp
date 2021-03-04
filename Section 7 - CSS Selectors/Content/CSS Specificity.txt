@@ -1,0 +1,23 @@
+Specificity lets us figure out what style if applied when there is a conflict for a particular element
+
+A measure on how specific a given selector is. the more specific selector wins
+
+ID selector - beats out any number of class selectors
+CLASS selector - beats out any number of element selectors
+
+
+ID > CLASS > ELEMENT
+
+
+
+0       0               2
+ID      CLASS           ELEMENT
+        ATTRIBUTE       PSEUDO ELEMENT
+        PSEUDO CLASS
+
+
+INLINE styles are MORE specific than IDs
+They overrule everything
+
+
+!important ignores Specificity and overweighs everything

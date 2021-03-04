@@ -1,0 +1,85 @@
+body {
+  background-color: #f1faee;
+}
+
+button {
+  font-size: 20px;
+  background-color: #a8dadc;
+}
+
+h1, h2 {
+  color: #1d3557;
+}
+
+#signUp {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+span {
+  color: #547b9d;
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+span a {
+  color: #a8dadc;
+}
+
+.post a {
+  color: #a8dadc;
+}
+
+footer a {
+  color: red;
+}
+
+h2+button {
+  font-size: 15px;
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+footer>a {
+  color: #a8dadc;
+}
+
+input [type="password"] {
+  color: greenyellow;
+}
+
+section[class="post"] {
+  background-color: inherit;
+}
+
+section.post {
+  background-color: inherit;
+}
+
+
+/* 
+    Pseudo Classes
+    keyword added to a selector that specifies a spectial state fo the selected element
+*/
+
+a:hover {
+  background-color: indianred;
+}
+
+button:hover {
+  background-color: darkred;
+  color: #f1faee;
+}
+
+.post a:hover {
+  background-color: darkred;
+  color: #f1faee;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
