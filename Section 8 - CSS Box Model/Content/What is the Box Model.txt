@@ -1,0 +1,73 @@
+Border      = Outer boundary of the Box
+Padding     = Distance between border and Content Box
+Margin      = Distance between border and the border of another Box
+Content Box = Content of an element lies in here
+
+Width & Height
+ - Set the width and height of the inner content box
+
+div{
+    width: 200px;   restrict the width of the content box to be 200px
+    height: 100px;  restrict the height of the content box to be 100px
+}
+
+
+Border
+ - the border around the entire element
+ - can control all aspects of the border (left, right, top, bottom, corners, etc...)
+ - the width of the border affects the sizing of the entire element as it adds 2*width to each dimension
+    - We can use box-sizing:border-box; to ensure border does not make the element larger than the max width or height
+    - subtracts 2*borderWidth from each dimension on the content box
+ - We can individually affect each side of the border
+ 
+ Border-Width
+    - Controls weight of the ling
+ 
+ Border-Color
+    - controls color of the border
+ 
+ Border-Style
+    - controls the style of the border (dashed, solid, dotted, etc...)
+    - affects order as Top, Right, Bottom, Left
+
+Border Shorthand
+ - border: width | style | color;
+border: 4px solid black;
+
+
+
+
+Padding
+ - the space between Content Box and Border
+ 
+ - Individual Properties
+    padding-left : 30px;
+    padding-top : 50px;
+ 
+ -  Shorthand
+    apply to all 4 sides
+        - padding : 10px;
+    apply to vertical | horizontal
+        - padding : 20px 20px;
+    apply to Top | horizontal | bottom
+        - padding : 20px 20px 20px;
+    apply to top | right | bottom | left
+        - padding : 20px 20px 20px 20px;
+
+
+
+ Margin
+ - the space outside of an element border and the end of the element
+ - Individual Properties
+    margin-left : 30px;
+    margin-top : 50px;
+ 
+ -  Shorthand
+    apply to all 4 sides
+        - margin : 10px;
+    apply to vertical | horizontal
+        - margin : 20px 20px;
+    apply to Top | horizontal | bottom
+        - margin : 20px 20px 20px;
+    apply to top | right | bottom | left
+        - margin : 20px 20px 20px 20px;

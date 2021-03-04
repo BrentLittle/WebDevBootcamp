@@ -1,0 +1,14 @@
+Inline
+ - Width & Height are ignored
+ - Padding and margin push elements away horizontally but NOT vertically
+
+Block
+ - Break the flow of a document
+ - all 4 attributes are respected
+
+Inline-Block
+ - acts as inline but all 4 attributes are respected
+
+
+ display: inline;  will cause all Block level elements (all level elements) will now act as inline
+ display: block;  will cause all inline level elements (all level elements) will now act as block

@@ -1,0 +1,14 @@
+Relative
+    EM
+        When working with font sizes, EM is Relative to the font size of the parent element
+        When working with other properties, 1 EM is equal to the computed font-size of the element itself
+    REM
+        relative to the root html element's font-size
+        will be easier to work with as it is a global value relative to the whole HTML document
+    VH
+    VW
+    % Percentage
+        Value is relative to some other value (most likely the parent)
+
+Absolute
+    px

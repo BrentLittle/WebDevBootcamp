@@ -1,0 +1,13 @@
+CRUCIAL!
+ - Border
+ - Padding
+ - Margin
+ - Width & Height
+ - Display property
+ - Units (Percentages, EMs, REMs)
+
+IMPORTANT
+
+
+NICE TO HAVE
+ - Border Radius
