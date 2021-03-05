@@ -1,0 +1,16 @@
+CRUCIAL
+ - Concepts
+ - Flex shorthand
+ - flex basis
+ - Justify-Content
+ - Flex-Direction
+ - Media Queries
+ - Align-Items
+ - Flex-wrap
+ - Align-Content
+ - Align-self
+
+IMPORTANT
+
+
+NICE TO HAVE
