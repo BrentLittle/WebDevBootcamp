@@ -1,0 +1,14 @@
+CRUCIAL
+ - What is bootstrap
+ - Working with CSS Frameworks
+ - Including 3rd party CSS
+
+IMPORTANT
+ - Bootstrap Grid
+ - Nav bar
+
+NICE TO HAVE
+ - Icons
+ - Typography
+ - Forms
+ - Buttons
