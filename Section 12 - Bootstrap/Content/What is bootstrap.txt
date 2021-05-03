@@ -1,8 +1,0 @@
-CSS Framework
-
-HElps us quickly create good looking and responsive websites
-
-Consists of a collection of components and a Grid System
-
-Bootstrap lets is utilize a bunch of pre-built compnents that we can incorporate into our websites
-Bootstrap also  has a grid system that helps layout our websites
