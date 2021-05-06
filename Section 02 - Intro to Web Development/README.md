@@ -4,13 +4,13 @@
 
 ### Topics Covered in this section
 
-#### Crucial
+#### Crucial:
 - Understanding of the Roles of HTML CSS and JS
-#### Important
+#### Important:
 - How the Internet Works
 - HTTP Request/Response Cycle 
 - Intro to the Web
-#### Nice To Have
+#### Nice To Have:
 - VSCode install and setup
 
 ## Notes:

@@ -4,7 +4,7 @@
 
 ### Topics Covered in this section
 
-#### Crucial
+#### Crucial:
 - Paragraph Elements
 - Headings
 - Lists
@@ -12,12 +12,12 @@
 - Images
 - Boilerplate
 
-#### Important
+#### Important:
 - Mozilla Developer Network Documentation
 - Inspect Tool
 
-#### Nice To Have
-- 
+#### Nice To Have:
+
 
 ## Notes:
 ### Intro to HTML
@@ -38,16 +38,16 @@ Defined using opening and closing tags
 ```
 
 ### HTML Elements
-**\<p> - Paragraph Element**  
+#### **\<p> - Paragraph Element**  
 Generates a line break and separation of text into definitive paragraphs.  
 Paragraph elements are a block level element.
 
-**\<h1>\<h2>\<h3>\<h4>\<h5>\<h6> - Heading Elements**  
+#### **\<h1>\<h2>\<h3>\<h4>\<h5>\<h6> - Heading Elements**  
 Provide Headings to a webpage to outline what content is in a particular section of the page. Good to think of it as H2s being a subheading of H1s.  
 There should only be one H1 on a page as the main heading will be the main subject of the page.  
 Headings should work as a tree, getting more refined as subtopics are introduced of a larger topic.
 
-**\<ol>\<ul> - List Elements**   
+#### **\<ol>\<ul> - List Elements**   
 ***ul*** is an unordered list, also known as a bulleted list.  
 ***ol*** is a ordered list, also known as a numbered list.  
 
@@ -55,7 +55,7 @@ Both the *ol* and *ul* elements have an \<li> element that falls within which st
 
 You can also create nested lists by having an *li* element contain an *ol* or *ul* or even both if you wish.
 
-**\<a> - List Elements**  
+#### **\<a> - List Elements**  
 Used to create a hyperlink using the href attribute.
 ```
 <a href="www.brentlittlefield.ca"> Click to visit my Portfolio! </a>
@@ -65,7 +65,7 @@ Used to create a hyperlink using the href attribute.
 Using the anchor tag you cna link to external webpages using HTTP requests and a URL or you can link to other local files you may have that are a different webpage but apart of the whole overlying website you have created.  
 The anchor tag is an inline element
 
-**\<img> - Image Element** 
+#### **\<img> - Image Element** 
 Only element that has no closing tag.
 ```
 <img src="https://1000logos.net/wp-content/uploads/2020/02/F1-Logo-history.jpg">
