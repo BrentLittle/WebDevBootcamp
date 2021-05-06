@@ -1,6 +1,7 @@
 # Web Developer Bootcamp Udemy Course
 Hi! I'm Brent Littlefield and I am beginning my journey to become a Web Developer starting with learning the basics through a Udemy course.  
-While working through this course I will also be working on small projects as well at the same time to take what I am learning and implement the topics into something of my own. The smaller projects will allow me to take what I have learned and apply it in a totally new way that is seperate from the course.
+While working through this course I will also be working on small projects as well at the same time to take what I am learning and implement the topics into something of my own.   
+The smaller projects will allow me to take what I have learned and apply it in a totally new way that is seperate from the course.
 
 ## Organization
 The structure of this course is broken down into many different sections with each having a different focus.   
