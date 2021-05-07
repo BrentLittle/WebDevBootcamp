@@ -24,21 +24,22 @@
 HTML stands for Hypertext Markup Language and is not a programming language to implement logic but rather language to generate a *document*.
 HTML is the structure of a webpage that describes what information should be rendered on the screen and what aspects that information should have i.e. in a list, or bolded, or italicized.
 
-To write HTML we use HTML Elements. Some of the main elements are:
+To write HTML we use HTML Elements.   
+Some of the main elements are:
 ```
 <p> - represent a paragraph of text
 <h1> - represent a main header of a page
 <img> - embed an image
 <form> - represent a form
 ```
-Defined using opening and closing tags
+Most elements are defined using opening and closing tags
 ```
 <p> Brent Littlefield </p>
 ^^ Opening Tag        ^^ Closing Tag
 ```
 
 ### HTML Elements
-#### **\<p> - Paragraph Element**  
+#### **\<p>\</p> - Paragraph Element**  
 Generates a line break and separation of text into definitive paragraphs.  
 Paragraph elements are a block level element.
 
@@ -47,7 +48,7 @@ Provide Headings to a webpage to outline what content is in a particular section
 There should only be one H1 on a page as the main heading will be the main subject of the page.  
 Headings should work as a tree, getting more refined as subtopics are introduced of a larger topic.
 
-#### **\<ol>\<ul> - List Elements**   
+#### **\<ol>\</ol> \<ul>\</ul> - List Elements**   
 ***ul*** is an unordered list, also known as a bulleted list.  
 ***ol*** is a ordered list, also known as a numbered list.  
 
@@ -55,23 +56,27 @@ Both the *ol* and *ul* elements have an \<li> element that falls within which st
 
 You can also create nested lists by having an *li* element contain an *ol* or *ul* or even both if you wish.
 
-#### **\<a> - List Elements**  
+#### **\<a>\</a> - Anchor Tags**  
 Used to create a hyperlink using the href attribute.
 ```
+<!-- Can link to External Sites -->
 <a href="www.brentlittlefield.ca"> Click to visit my Portfolio! </a>
 
+<!-- Can Link to Internal Sites -->
 <a href="AboutMe.html"> Click to get to know me! </a>
 ```
-Using the anchor tag you cna link to external webpages using HTTP requests and a URL or you can link to other local files you may have that are a different webpage but apart of the whole overlying website you have created.  
+Using the anchor tag you can link to external webpages using HTTP requests and a URL or you can link to other local files you may have that are a different webpage but apart of the whole overlying website you have created.  
 The anchor tag is an inline element
 
 #### **\<img> - Image Element** 
 Only element that has no closing tag.
 ```
+<!-- Link to an external image online -->
 <img src="https://1000logos.net/wp-content/uploads/2020/02/F1-Logo-history.jpg">
+
+<!-- Link to a local image -->
 <img src="Littlefield.jpg">
 ```
-Can reference a local file or a URL to source the image.
 
 ### HTML Boilerplate
 There is essential structure that needs to be in ***EVERY*** HTML Document.

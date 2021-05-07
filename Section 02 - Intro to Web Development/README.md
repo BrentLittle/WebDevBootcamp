@@ -5,7 +5,7 @@
 ### Topics Covered in this section
 
 #### Crucial:
-- Understanding of the Roles of HTML CSS and JS
+- Understanding of the Roles of HTML, CSS, and JS
 #### Important:
 - How the Internet Works
 - HTTP Request/Response Cycle 
@@ -26,11 +26,12 @@ Data on the internet can be sent in many different ways: Most common being over 
 ***In Summary, the Internet is the overlying infrastructure that provides the abilites for data to transfer between devices across the globe.***
 
 ### The Web
-As the Internet is the global network the Web is an information system. THis information system allows documents and other resources to be available over the Internet. 
+As the Internet is the global network the Web is an information system. This information system allows documents and other resources to be available over the Internet. 
 
 Documents are identified using URL (*Uniform Resource Locator*)
 
 Data on the Web is transported using HTTP (*Hypertext Transfer Protocol*)  
+
 HTTP is how we request and share infromation. A set of rules to be followed to share information across the web.  
 When visiting a URL we make an HTTP request asking for that particular resource.  
 We get a response back from a Web Server and it is then the browser's job to display the reply we got back.
@@ -67,4 +68,4 @@ Font-End overall generates HTTP requests and takes responses and builds the webp
 
 **JavaScript** is equivalent to the the verbs of a sentence. JS helps determine the actions the web page is going to take.
 
-**In summary, *HTML* is the structure of the page, *CSS* is what the page looks like, and *JavaScript* is the actions the webpage can make.**
+**In summary, *HTML* is the structure of the webpage, *CSS* is what the page looks like, and *JavaScript* is the actions the webpage can make.**
