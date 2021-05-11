@@ -7,6 +7,108 @@
     <title>F1 Form</title>
 </head>
 <body>
+    <h1>Formula Forms</h1>
+    <form action="/speed">
+        <p>
+            <label for="TeamName">Enter Your Favourite Team's name: </label>
+            <input name="TeamName" type="text" placeholder="Username" id="TeamName"> 
+        </p>
+        <p>
+            <label for="driverName">Enter Your Favourite Driver's name:</label>
+            <input name="driverName" id="driverName" type="password" placeholder="Password">
+        </p>
+        <p>
+            <label for="colour">Enter Your Favourite Team's Colour:</label>
+            <input name="colour" id="colour" type="color">
+        </p>
+        <p>
+            <label for="number">Enter Your Favourite Driver's number:</label>
+            <input name="number" type="number" placeholder="Number">
+        </p>
+
+        <!-- This button submits the form -->
+        <button>Submit Your Opinion</button>
+        
+        <!-- This button does nothing due to type button -->
+        <button type="button">Submit Your Opinion (Button)</button>
+        
+        <!-- This button can also submit the form -->
+        <input type="Submit" value="clickMe!">
+    </form>
+    
+    <hr>
+    
+    <!-- Since this button is outside the form it has no default action -->
+    <button>Button Outside Form</button>
+
+
+    <h2>Formula Forms v2</h2>
+    <p>
+        <form action="https://www.reddit.com/search">
+            <label for="redditSearch">What do you want to search on Reddit?</label>
+            <input type="text" name="q" id="redditSearch" placeholder="Reddit Search">
+            <button type="submit">Search reddit</button>
+        </form>
+    </p>
+    
+    
+    <p>
+        <form action="https://www.google.com/search">
+            <label for="googleSearch">What do you want to search on google?</label>
+            <input type="text" name="q" id="googleSearch" placeholder="Google Search">
+            <button type="submit">Search Google</button>
+        </form>
+    </p>
+
+    <p>
+        <form action="https://www.youtube.com/results">
+            <label for="ytSearch">What do you want to search on google?</label>
+            <input type="text" name="search_query" id="ytSearch" placeholder="YouTube Search">
+            <button type="submit">Search YouTube</button>
+        </form>
+    </p>
+    
+    <!-- https://www.udemy.com/courses/search/?q=100+Days -->
+    <p>
+        <form action="https://www.udemy.com/courses/search">
+            <label for="UdemySearch">What course are you looking for?</label>
+            <input type="text" name="q" id="udemySearch" placeholder="Udemy Search">
+            <button type="submit">Search Udemy</button>
+        </form>
+    </p>
+
+    <h2>Formula Forms v3</h2>
+    <form action="/races">
+        <p>
+            <label for="firstPlace">Do you agree to be First Place?</label>
+            <input type="checkbox" name="agree1" id="firstPlace">
+            <br>
+            <input type="checkbox" name="agree2" id="firstPlace2" checked>
+            <label for="firstPlace2">Do you agree to be First Place?</label>
+            
+        </p>
+        <p>
+            <b>Who is the best Driver?</b> <br>
+            <label for="Perez">Perez</label>
+            <input type="radio" name="driver" id="Perez" value="perez">
+            <label for="Verstappen">Verstappen</label>
+            <input type="radio" name="driver" id="Verstappen" value="verstappen">
+            <label for="Ricciardo">Ricciardo</label>
+            <input type="radio" name="driver" id="Ricciardo" value="ricciardo">
+        </p>
+
+        <p>
+            <select name="driverSelection" id="driverSel">
+                <option value="">--Please Choose an Option--</option>
+                <option value="VER">Max Verstappen</option>
+                <option value="PER">Sergio Perez</option>
+                <option value="HAM">Lewis Hamilton</option>
+                <option value="RIC">Daniel Ricciardo</option>
+                <option value="NOR">Lando Norris</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
     
 </body>
 </html>
