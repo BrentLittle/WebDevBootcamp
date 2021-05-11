@@ -109,6 +109,23 @@
         </p>
         <button>Submit</button>
     </form>
-    
+
+    <h2>Validation Formula Form</h2>
+    <form action="/validate">
+        <p>
+            <label for="firstName">Enter Driver's First Name</label>
+            <input type="text" name="FirstName" id="firstName" required>
+        </p>
+        <P>
+            <label for="driverUsername">Enter Driver's username</label>
+            <input type="text" name="drivUsrName" id="driverUsername" minlength="5" maxlength="20" required>
+        </P>
+        <p>
+            <input type="email" required>
+            <input type="URL" required>
+        </p>
+
+        <button>Submit Validation Form</button>
+    </form>
 </body>
 </html>

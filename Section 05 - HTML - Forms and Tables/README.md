@@ -159,3 +159,24 @@ Finally, the Select Attribute is a drop down menu with multiple options within
 ```
 
 ## Form Validation
+Form Validation can be used to determine the requirements of inputs within a form.  
+
+Client and Server side validations exist.
+
+The attribute required can be added to any input to make that input mandatory to be filled out in order to submit the form.
+```
+<label for="firstName">Enter Driver's First Name</label>
+<input type="text" name="FirstName" id="firstName" required>
+```
+
+We can also declare the min and max lengths of certain input types
+```
+<label for="driverUsername">Enter Driver's username</label>
+<input type="text" name="drivUsrName" id="driverUsername" minlength="5" maxlength="20" required>
+```
+
+Some input types have pattern matching built in already
+```
+<input type="email" required>
+<input type="URL" required>
+```
