@@ -158,3 +158,66 @@ h1,h2{
 ```
 
 This cascade also relates to not only within style sheets but between style sheets. if there are conflicting styles between sheets, the sheet that was linked last in the HTML document will ultimately win and be applied to the element.
+
+
+## Specificity
+Specificity plays a role when we have multiple CSS rules conflicting to style a single element. Specificity allows us to determine what style will get applied to the element.  
+
+It is the measure of how specific a selector is. the more specific the better.
+
+ID > Class > Element
+
+Id Selectors are the most specific and out weigh anything else
+
+
+| ID            | Class             | Element           |
+| ------------- |:-------------:    | -----:            |
+| ID Selector   | class             | Element           |
+|               | attribute         |   Pseudo-Element  |
+|               | Pseudo Class      |                   |
+
+
+this has a specificity score of 002 as there are 2 element selectors
+```
+section p{
+    color:teal;
+}
+```
+
+This has a specificity of 100 as there is one ID selector
+```
+#submit{
+    color:olive;
+}
+```
+This has a specificity of 012 as there is one ID selector
+```
+nav a.active{
+    color:orange;
+}
+```
+
+## Inline Styles
+These are more specific than IDs. These styles are more of less Baked into the HTML document.
+
+
+
+## !important
+!important is the top level of specificity and outweighs anything and will ALWAYS be applied to the element no matter what situation. This really just ignores specificity and automatically gets applied.
+```
+button{
+    background-color: magenta !mportant;
+}
+```
+
+
+## CSS inheritance
+Some CSS properties can be inherited from their parent if not set on that element specifically.  
+Some elements do not inherit from their parent element by default.  
+There is a work around. We can use the keyword inherit.
+```
+button,input{
+    color:inherit;
+}
+```
+This will allow for elements that would normally not inherit color from their parent element to be forced to do so.
