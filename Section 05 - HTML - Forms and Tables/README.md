@@ -11,7 +11,7 @@
 - Labels
 - Common Input Types
 
-#### Nice to Have:
+#### Important:
 - Table Sections - \<thead> \<tfoot> \<tbody>
 - Range and Text Areas
 - Form Validations 
