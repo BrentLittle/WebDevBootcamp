@@ -50,3 +50,111 @@ Since IDs are unique on a page this really allows us to select one element to st
 }
 ```
 
+## The Class Selector
+A class is a similar concept to and ID but a class can be applied to multiple Elements as they are not unique to a html document.  
+```
+.tag{
+    background-color: #e63946;
+    color:#f1faee;
+    font-size: 16px;
+}
+```
+
+
+## Descendent Selector
+Depicted using a space between element types. This selects any element B that is a descendent of element A
+
+```
+A B{
+    Styles Here
+}
+```
+```
+This Example selects all achor tags that lie within an li.
+li a{
+    color: red;
+}
+
+This CSS rule will only style anchor tags that lie within a span.
+.post a{
+    color: #457b9d;
+    text-decoration:none;
+}
+
+```
+
+## Adjacent and Direct-Descendent Selector
+The Adjacent Selector selects only the Elements of type B that are immediately preceeded by an element of type A  
+```
+A + B{
+    Styles Element B that comes immediately after Element A
+}
+
+input + button{
+    background-color: hotpink;
+}
+```
+The Direct Child selector selects only the elements of type B that are a direct child of an element of type A
+```
+A > B{
+    Applies styles to element of Type B
+}
+
+footer > a{
+    color:#1d3557;
+}
+```
+
+## Attribute Selector
+Allows us to select an element based on some attribute it may have.
+```
+input[type="password"]{
+    color:olive;
+}
+
+a[href*="google"]{
+    color:blue;
+}
+```
+
+
+## Pseudo Classes
+Keywords added onto the end of a selector that specifies a special state of the selected elements.  
+- :active
+- :checked
+- :first
+- :first-child
+- :hover
+- :not()
+- :nth-child()
+- :noth-of-type()
+
+all Pseudo classes start with a colon (:)
+
+
+## Pseudo Elements
+Keyword added to a selector that lets you style a particular part of selected elements
+- ::after
+- ::before
+- ::first-letter
+- ::first-line
+- ::selection
+
+all Pseudo elements should start with a double colon (::)
+
+## CSS Cascade
+
+The order of your styles are declared in matters.
+The styles that are declared last that may conflict, are set to whatever was declared last.
+
+In this example the H2s will actually be set to yellow.
+```
+h1,h2{
+    color: #1d3557;
+}
+h1,h2{
+    color: #FFFF00;
+}
+```
+
+This cascade also relates to not only within style sheets but between style sheets. if there are conflicting styles between sheets, the sheet that was linked last in the HTML document will ultimately win and be applied to the element.
