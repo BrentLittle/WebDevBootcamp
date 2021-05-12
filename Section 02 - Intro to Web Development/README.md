@@ -14,6 +14,7 @@
 - VSCode install and setup
 
 ## Notes:
+- - -
 ### The Internet from a High Level
 The Internet is a bunch of conected devices. More or less a global network of networks.  
 

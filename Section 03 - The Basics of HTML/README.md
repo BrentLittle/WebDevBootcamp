@@ -18,8 +18,8 @@
 
 #### Nice To Have:
 
-
 ## Notes:
+- - -
 ### Intro to HTML
 HTML stands for Hypertext Markup Language and is not a programming language to implement logic but rather language to generate a *document*.
 HTML is the structure of a webpage that describes what information should be rendered on the screen and what aspects that information should have i.e. in a list, or bolded, or italicized.

@@ -21,6 +21,7 @@
 - Table Colspan and Rowspan
 
 ## Notes:
+- - -
 
 ## Introducing HTML Tables
 Tables are structured sets of data made up of rows and columns.  
