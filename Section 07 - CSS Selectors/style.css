@@ -1,0 +1,20 @@
+/* *{
+    background-color: cyan;
+} */
+
+button{
+    font-size: 30px;
+    background-color:#a8dadc;
+}
+h1,h2{
+    color: #1d3557;
+}
+body{
+    background-color:#f1faee;
+}
+
+#signUp{
+    background-color: #1d3557;
+    color:#f1faee;
+}
+
