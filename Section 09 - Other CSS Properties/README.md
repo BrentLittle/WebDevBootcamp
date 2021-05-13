@@ -82,6 +82,8 @@ transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 ## Transformations
 Transform allows us to do alot to elements on a web page.
 
+All of these transforms apply to the element and all content that lies within them.
+
 ### rotate()  
 allows us to take an angle and rotate the element by that amount. It can be in degrees, radians, gradians, or turns.
 ```
@@ -117,4 +119,45 @@ transform: translate(200px,20px);
 
 ### Skew()
 skew allows us to do as it says, to skew some element. It accepts just like rotation some value being an angle in degrees, radians, or gradians. 
+```
+transform: skew(30deg);
+transform: skew(30deg,5deg);
+```
 
+## Background()
+The background property sets all background style properties at once, such as color, image, origin and size, or repeat method.
+```
+/* Using a <background-color> */
+background: green;
+
+/* Using a <bg-image> and <repeat-style> */
+background: url("test.jpg") repeat-y;
+
+/* Using a <box> and <background-color> */
+background: border-box red;
+
+/* A single image, centered and scaled */
+background: no-repeat center/80% url("../img/image.png");
+```
+Each layer may include zero or one occurrences of any of the following values:
+- \<attachment>
+- \<bg-image>
+- \<position>
+- \<bg-size>
+- \<repeat-style>
+
+The \<bg-size> value may only be included immediately after \<position>, separated with the '/' character, like this: "center/80%"
+
+
+## Google Fonts
+Enables us to use nice looking fonts for free using Google's APIs.  
+
+We can lembed our fonts into our HTML document using a \<link> element.
+
+These links tell the browser to go retreive the font when the page is loaded.
+
+```
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+```
+The rel="preconnect" improves page load speed as it establishes early connections to important third-parties that are defined in the href.
