@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+div{
+    /* Restrict the width of the content box to 200px */
+    width:200px;
+    /* Restrict the height of the content box to 200px */
+    height: 200px;
+    background-color: rosybrown;
+    margin: 20px 0px
+}
+
+h1{
+    background-color: pink;
+    width: 100px;
+    padding-left: 30px;
+    padding-top: 100px;
+    margin:0px;
+}
+
+#one{
+    background-color: #e5989b;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing : border-box;
+    margin-left: 50px;
+    margin-top: 0;
+}
+#two{
+    background-color: #b5838d;
+    border-color: #ffcdb2;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 8px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+#three{
+    background-color: #6d6875;
+    border: 3px solid darkred;
+    border-radius: 45% 20%;
+}
+button{
+    /* Apply to all four sides */
+    padding:10px;
+
+    /* vertical | horizontal */
+    padding: 5px 10px;
+
+    /* top | horizontal | bottom */
+    padding: 1px 2px 2px;
+
+    /* top | right | bottom | left  */
+    padding: 10px 20px 30px 40px;
+}

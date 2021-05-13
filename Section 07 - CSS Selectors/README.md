@@ -170,11 +170,7 @@ ID > Class > Element
 Id Selectors are the most specific and out weigh anything else
 
 
-| ID            | Class             | Element           |
-| ------------- |:-------------:    | -----:            |
-| ID Selector   | class             | Element           |
-|               | attribute         |   Pseudo-Element  |
-|               | Pseudo Class      |                   |
+<img src="https://i2.wp.com/css-tricks.com/wp-content/uploads/2021/01/specificity-calculationbase_rhrovi.png?resize=570%2C346&ssl=1" alt="Specificity Breakdown">
 
 
 this has a specificity score of 002 as there are 2 element selectors
