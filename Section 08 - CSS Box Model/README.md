@@ -115,3 +115,54 @@ margin: 1px 2px 2px;
 top | right | bottom | left 
 margin: 5px 1px 0 2px;
 ```
+
+## Display Property
+Some elements are inline elements and some elements are block elements.
+
+Inline  
+Width and Height are ignored. margin and Padding push elements away horizontally but not vertically.
+
+Block  
+Block elements break the flow of a document. width, height, margin and padding are all respected.
+
+Inline-Block  
+Behaves like an inline element except width, height, margin and padding are all respected. 
+
+
+## CSS Units
+Two Types of units, Relative and Absolute
+
+### Percentages 
+Percentages are always relative to some other value. somtimes its a value from the parent or other times its a value from the element itself
+
+half the width of the parent
+```
+width:50%;
+```
+half the font-size of the element itself
+```
+line-height:50%
+```
+
+### EMs
+EMs are relative units
+
+With font-size, 1em equals the font size of the parent. 2ems is twice the font size of the parent.
+
+
+If we have an article with a font size of 30px and a div that is a child
+```
+div{
+    font-size:2em;
+}
+```
+This rule will double the font size in relation to the font size of the article
+
+
+With other properties, 1em is equal to the computed font-size of the element itself
+
+
+### REMs
+REM was generated to resolve a shortcoming of EM. That problem is EMs can stack and grow rapidly for say if you have nested lists and you want to style the list elements.
+
+REMs are relative to the root html element's font size. This makes working with relative values easier.
