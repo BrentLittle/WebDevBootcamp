@@ -1,0 +1,83 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background1, .background2, .background3, .background4{
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background1{
+    background-image: url("bg4.jpeg");
+    min-height: 100%;
+}
+
+.background2{
+    background-image: url("bg2.jpeg");
+    min-height: 100%;
+}
+.background3{
+    background-image: url("bg3.jpeg");
+    min-height: 100%;
+}
+.background4{
+    background-image:url("bg1.jpeg");
+    min-height: 100%;
+}
+
+div .buttonDiv{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonDiv .button{
+    text-transform:uppercase;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 16px;
+    transition: background-color 250ms, border-radius 250ms ; 
+}
+
+.buttonDiv .button:hover{
+    background-color: #25252590;
+    border-radius: .5em;
+}
+
+.heading{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.welcomeSection{
+    color: #6a6a6a;
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 3em 14em;
+}
+
+.textSection{
+    color: #BaBaBa;
+    background-color: #252525;
+    text-align: justify;
+    padding: 3em 14em;
+}
+
+.contactSection{
+    color: #6a6a6a;
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 3em 14em;
+}

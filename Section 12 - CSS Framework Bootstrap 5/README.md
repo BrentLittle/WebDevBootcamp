@@ -1,5 +1,5 @@
 # Web Developer Bootcamp Udemy Course
-## Section 11 - Bootstrap: A CSS Framework
+## Section 12 - Bootstrap: A CSS Framework
 ### Topics Covered in this section
 
 #### Crucial:
