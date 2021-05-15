@@ -200,3 +200,72 @@ Within each row we have columns to take up this available space.
 ```
 
 We are also able to nest containers inside of other containers. This allows for the ability to generate nested grid systems
+
+## Responsive BS Grid 
+This respnsive grid system work around the built in breakpoints in bootstrap.  
+These built in break points are as follows
+
+| xs | s | md | lg | xl | xxl |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| <576px | ≥576px | ≥768px | ≥992px	| ≥1200px	 | ≥1400px|
+
+
+We can use these defined sizes in order to change how our grid system works based on the size of the viewport.
+
+For example if we had col-md-6, this means that up to the medium sized break point the column will take up the full width (12 Units) but at medium and above will then switch to only taking half the width (6 Units).
+
+## Grid Utilities
+As the bootstrap grid is built off of flex box we can use flex utilties to change how the grid system works and customize it to how we want to make it act.
+
+BS has some built in flex utilities for us to easily adapt the grid system.
+
+
+
+## BS Forms
+For BS forms we need to use the form-control class on each of the inputs. This gives us a nicer looking form input.
+
+Form-control can go on any input type to style it appropriately.
+```
+<label for="email">Email</label>
+<input type="email" class="form-control" id="email" placeholder="Email">
+
+<label for="Password">Password</label>
+<input type="Password" class="form-control" id="Password" placeholder="Password">
+```
+
+For checkboxes and radio buttons we need a class of form-check surrounding them. We also must include a form-check-label class on the label element and a form-check-input on the input element.
+```
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Default checkbox
+  </label>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+</div>
+```
+
+## BS Navbars
+Navbars are a signature component of bootstrap. Navbars are found on mainly every website nowadays and bootstrap allows us to create these quick and easily while still looking great.
+
+Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl|-xxl} for responsive collapsing and color scheme classes.
+```
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </div>
+</nav>
+```
+
+The navbar-nav class allows us to add in styled anchor tags to our navbar.
+These anchor tags can be held in an unordered list with list elements inside or can just be inside a div with a class or navbar-nav.
+
+With navbars we can place containers within them to organize our content.
+
+We can also make sure our nav bar is always at the top using the ***.fixed-top*** class or when the nav bar hits the top of the screeen we can make sure it stays there and does not scroll away using the ***.sticky-top*** class
