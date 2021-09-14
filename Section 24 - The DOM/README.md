@@ -1,6 +1,6 @@
 # Web Developer Bootcamp Udemy Course
 
-## Section 23 - JavaScript: THE DOM
+## Section 24- JavaScript: THE DOM
 
 ### Topics Covered in this section
 

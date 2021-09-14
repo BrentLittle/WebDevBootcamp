@@ -6,17 +6,15 @@ const maxVal = 898;
 
 for (let i = 1; i <= maxVal; i++) {
     const newDiv = document.createElement("div")
+    newDiv.classList.toggle("pokemon")
     
     const newImg = document.createElement("img")
     newImg.src = `${baseURL}${i}.png`
+    newDiv.appendChild(newImg)
 
     const newSpan = document.createElement("span")
     newSpan.innerText = `#${i}`
-    
-    newDiv.appendChild(newImg)
     newDiv.appendChild(newSpan)
-
-    newDiv.classList.toggle("pokemon")
 
     container.appendChild(newDiv)
 }
