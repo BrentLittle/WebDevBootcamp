@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="https://www.pardot.com/wp-content/uploads/2017/04/scoring.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">    
+                        <h1 class="title is-1"><span id="p1ScoreDisplay">0</span> to <span id="p2ScoreDisplay">0</span></h1>
+                        <p class="subtitle">Use the buttons below to Keep Score.</p>
+                        <label for="playto" class="label is-large is-inline"> Playing To:</label>
+                        <div class="select is-rounded is-black">
+                          <select class="select is-warning" id="playto">
+                              <option value="3">3</option>
+                              <option value="5">5</option>
+                              <option value="7">7</option>
+                              <option value="9">9</option>
+                              <option value="11">11</option>
+                              <option value="13">13</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <button class="is-large card-footer-item button is-primary" id="p1Btn">+1 Player 1</button>
+                        <button class="is-large card-footer-item button is-danger" id="reset">Reset</button>
+                        <button class="is-large card-footer-item button is-info" id="p2Btn">+1 Player 2</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
