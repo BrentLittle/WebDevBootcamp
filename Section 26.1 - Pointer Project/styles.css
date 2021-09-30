@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+  
+header {
+    background: #9d1939;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+    font-size: medium;
+}
+  
+div {
+    flex: 1;
+    background: #eebd31;
+    overflow: auto;
+}
+  
+footer {
+    background: #11335d;
+    min-height: 30px;
+    max-height: 80px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+p{
+    margin: 5px 0;
+}
+
+img {
+    width: 25px;
+    height: 40px;
+}
+
+#arrowContainer{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+    
+  
