@@ -21,9 +21,9 @@ const updateArrowLocationInfo = () => {
     arrowLocationElement.innerText = `Arrow Location (x,y) = ${arrowX}, ${arrowY}`
 }
 
-const getAngleToMouse = (p1x, p1y, p2x, p2y, p3x, p3y) => {
+const getAngleToMouse = (p1x, p1y, p3x, p3y) => {
     /* point 1 is the location of the arrow, 
-       point 2 is the location of the top of the screen directly above the arrow, 
+       point 2 can be determined using the location of point 1 which is the point on the top edge of the screen directly above point 2
        point 3 is the location of the mouse
 
         p2 (top of screen)
@@ -35,8 +35,8 @@ const getAngleToMouse = (p1x, p1y, p2x, p2y, p3x, p3y) => {
     */  
 
     // generate vector objects from the points
-    const vectorA = {x: p1x-p2x, y: p1y-p2y}
-    const vectorB = {x: p1x-p3x, y: p1y-p3y}
+    const vectorA = {x: 0, y: p1y}
+    const vectorB = {x: p1x - p3x, y: p1y - p3y}
 
     // calculate the necessary values to find the angle between vectors A and B
     let aDOTb = (vectorA.x * vectorB.x) + (vectorA.y * vectorB.y)
@@ -56,7 +56,7 @@ window.addEventListener("mousemove", (e) => {
     
     mousePosElement.innerText = `(x, y) = ${mouseX}, ${mouseY}`
     
-    angle = getAngleToMouse(arrowX, arrowY, arrowX, 0, mouseX, mouseY)
+    angle = getAngleToMouse(arrowX, arrowY, mouseX, mouseY)
     
     arrowElement.style.transform = `rotate(${angle}deg)`
   });
